@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 35%;
+}
+.container h3{
+    color: #000000;
+    font-size: 32px;
+    padding: 50px 0;
+    text-align: center;
+}   
+.price-row{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 25px;
+    
+}
+.price-col{
+    background: #AB8771;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #000000;  
+}
+
+.price-col p{
+    font-size: 35px;
+    color: #DDC1BD;
+    background: transparent;
+    border-bottom: 2.5px solid #000000;
+    border-bottom-width: thin;
+}
+
+.price-col h3{
+    font-size: 44px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+
+}
+
+.price-col h3 span{
+    font-size: 16px;
+}
+
+.price-col ul{
+    text-align: left;
+    margin: 20px 0;
+    color: #fff;
+    list-style: none;
+    
+    
+}
+.price-col ul li{
+    margin: 15px 0;
+    border: 1.5px solid ;
+    border-radius: 60px;
+}
+
+.price-col button{
+    width: 100%;
+    padding: 14px 0;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+.price-col button:hover{
+    background: #987263;
+}
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
